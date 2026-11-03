@@ -1,0 +1,22 @@
+.wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.cube {
+  height: 72%;
+  width: auto;
+}
+
+.coords {
+  position: absolute;
+  left: 20px;
+  bottom: 18px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}

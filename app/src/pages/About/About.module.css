@@ -1,0 +1,21 @@
+.prose {
+  max-width: 62ch;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--text-muted);
+  padding-bottom: 72px;
+}
+
+.prose a {
+  color: var(--text);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-strong);
+}
+
+.prose a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}

@@ -1,0 +1,23 @@
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.item {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.sep {
+  color: var(--text-faint);
+}
+
+.link:hover {
+  color: var(--accent);
+}
